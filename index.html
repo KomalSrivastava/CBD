@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body class="bg-gray-800 font-sans leading-normal tracking-normal">
+ <section class="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center"
+         style="background-image: url('images/cbdimg.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white opacity-50 z-0"></div>
+
+    <div class="absolute top-2 left-2 sm:top-4 sm:left-4 z-20 flex flex-col items-start space-y-1 pl-2 sm:pl-4">
+        <div class="flex items-center space-x-1 sm:space-x-2">
+            <img src="images/cbdlogo.png" alt="CBD Logo" class="w-10 h-6 sm:w-12 sm:h-8 md:w-24 md:h-16">
+        </div>
+    </div>
+
+    <div class="absolute top-1 right-2 w-8 h-8 sm:top-2 sm:right-8 sm:w-10 sm:h-10 md:right-32 rounded-full flex items-center justify-center shadow-lg z-30"
+         style="background-color:#C8102E;">
+        <img src="images/Vector.png" alt="Phone Icon" class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 object-cover">
+    </div>
+
+    <div class="relative z-10 w-full flex justify-center items-center px-4 md:px-8 lg:px-20">
+        <div class="flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 w-full max-w-6xl mx-auto">
+            <div class="flex-1 space-y-4 sm:space-y-6 md:space-y-8 text-left pt-4 sm:pt-8 md:pt-12 lg:pt-16">
+                <div class="test-class">
+                    <div class="flex items-center space-x-2 sm:space-x-3 md:space-x-4 lg:space-x-6 ml-1 sm:ml-2 md:ml-4 lg:ml-6">
+                        <div class="border-t-4 border-red-600 w-1/6 sm:w-1/4 md:w-1/3 lg:w-1/4"></div>
+                        <h2 class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-gray-800"
+                            style="color: #C8102E; font-family: 'Verdana', sans-serif;">CBD Corporate Services</h2>
+                    </div>
+                    <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 leading-tight max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-3xl">
+                        Seamless Company Formation in Saudi Arabia.<br class="hidden sm:block">Set up or expand into the Kingdom<br class="hidden sm:block">with expert guidance.
+                    </h1>
+                </div>
+                <p class="text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl">
+                    We specialise in helping companies establish in Saudi Arabia. Our experts handle every aspect of company setup, ensuring a smooth and compliant journey throughout.
+                </p>
+                <button class="bg-red-600 text-white py-2 px-4 sm:py-3 sm:px-6 md:py-4 md:px-8 rounded-lg w-full sm:w-auto font-semibold hover:bg-red-700 transition duration-300">
+                    Start your journey today with a complimentary consultation
+                </button>
+            </div>
+            <div class="flex-1 bg-transparent backdrop-blur-2xl p-2 sm:p-4 md:p-6 shadow-xl max-w-full mx-auto relative bg-gray-200 bg-opacity-75">
+                <h2 class="text-md sm:text-lg md:text-xl font-bold text-gray-800 mb-2 sm:mb-4">Get in Touch</h2>
+                <p class="text-gray-600 text-xs sm:text-sm md:text-base mb-2 sm:mb-4">
+                    Ready to grow your business? Get in touch today for a complimentary consultation.
+                </p>
+                <form class="space-y-2 sm:space-y-3">
+                    <div class="flex flex-col sm:flex-row gap-2 sm:gap-3">
+                        <input type="text" placeholder="First Name*" required class="w-full sm:w-1/2 p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                        <input type="text" placeholder="Last Name*" required class="w-full sm:w-1/2 p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    <input type="email" placeholder="Email*" required class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    <input type="tel" placeholder="Phone Number*" required class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    <input type="text" placeholder="Company Name" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    <select required class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                        <option value="">Service of Interest</option>
+                    </select>
+                    <button type="submit" class="bg-red-600 text-white py-2 w-full rounded-lg font-semibold hover:bg-red-700 transition duration-300">
+                        Request Consultation
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-12 bg-gray-100 relative">
+    <img src="images/Equipment.png" alt="Equipment Image" class="absolute top-0 left-0 mt-8 ml-4 md:ml-32 w-24 sm:w-32 h-auto">
+    
+    <div class="max-w-screen-lg mx-auto px-4 sm:px-6">
+        <div class="test-class">
+        <div class="flex items-center mb-4">
+            <div class="flex items-center space-x-4 ml-2 sm:ml-4">
+                <div class="border-t-4 border-red-600 w-8"></div>
+                <h2 class="text-xl sm:text-2xl font-bold text-gray-800 uppercase">About Us</h2>
+            </div>
+        </div>
+        <div class="flex flex-col sm:flex-row justify-between items-start gap-8">
+            
+            <div class="w-full sm:w-2/3 pr-0 sm:pr-8 flex flex-col justify-between">
+                <p class="text-xl sm:text-2xl font-bold text-black mb-4">CBD Corporate Services</p>
+                <p class="text-base sm:text-lg text-gray-700 mb-8">
+                    CBD is an award-winning, end-to-end corporate services firm with offices in Riyadh, Dubai, Doha, and Muscat. Renowned for offering a comprehensive suite of market entry services and guidance to entities at the forefront of international trade and commerce, CBD excels in facilitating foreign companies and investors to navigate the GCC market. Our expertise encompasses in-depth feasibility studies, company formation, business structuring, secure corporate nominee partners or agents, licensing, PRO/visa assistance, accounting & advisory, relocation, Employer of Record (EoR), and compliance.
+                </p>
+            
+            </div>
+           <div class="w-full sm:w-1/3 flex justify-center mt-4 sm:mt-0">
+  <img src="images/01.png" alt="About Us Image" class="w-full h-auto sm:h-full object-cover rounded-lg">
+</div>
+
+        </div>
+        </div>
+        <div class="mt-12 flex flex-col sm:flex-row justify-around items-center gap-8 bg-gray-100 p-6 rounded-lg">
+            <div class="text-center">
+                <p id="companies-counter" class="text-3xl sm:text-4xl font-bold" style="color: #C8102E;">0+</p>
+                <p class="text-lg font-bold text-black">Companies Incorporated</p>
+            </div>
+            <div class="text-center">
+                <p id="sectors-counter" class="text-3xl sm:text-4xl font-bold" style="color: #C8102E;">0+</p>
+                <p class="text-lg font-bold text-black">Sector Expertise</p>
+            </div>
+            <div class="text-center">
+                <p id="specialists-counter" class="text-3xl sm:text-4xl font-bold" style="color: #C8102E;">0+</p>
+                <p class="text-lg font-bold text-black">Specialists Across the GCC</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script>
+   
+    function animateCounter(id, endValue, duration) {
+        let counter = document.getElementById(id);
+        let startValue = 0;
+
+        
+        let stepTime = Math.abs(Math.floor(duration / endValue));
+        
+        let interval = setInterval(function() {
+            startValue++;
+            counter.innerHTML = startValue + "+"; 
+            if (startValue === endValue) {
+                clearInterval(interval);
+            }
+        }, stepTime);
+    }
+
+    
+    window.onload = function() {
+        animateCounter("companies-counter", 600, 3000);  
+        animateCounter("sectors-counter", 50, 3000);     
+        animateCounter("specialists-counter", 45, 3000); 
+    }
+</script>
+
+
+
+<section class="py-12 bg-gray-100 relative">
+    <img src="images/Equipment 1.png" alt="Equipment Image" class="absolute top-0 right-0 mt-8 mr-32 w-32 h-auto sm:mr-8">
+
+    <div class="max-w-screen-lg mx-auto px-6">
+        <div class="flex items-center mb-4">
+            <div class="flex items-center space-x-4 ml-4">
+                <div class="border-t-4 border-red-600 w-8"></div>
+                <h2 class="text-3xl font-bold text-gray-800 uppercase">Key Services Offered</h2>
+            </div>
+        </div>
+
+        <!-- Adjusting the Flexbox container to ensure center alignment on small screens -->
+        <div class="flex flex-col sm:flex-row justify-center items-center sm:justify-between gap-8">
+        
+            <!-- Image container centered in mobile view -->
+            <div class="w-full sm:w-1/3">
+                <img src="images/Carl-Dowling_CBD-Corporate-Services-optimized.png" alt="Key Services Image" class="w-full h-auto rounded-lg shadow-md">
+            </div>
+
+            <!-- Text container with padding adjusted for mobile -->
+            <div class="w-full sm:w-1/2 sm:pr-8 px-4 sm:px-0">
+                <p class="font-['Verdana'] text-2xl font-bold text-black mb-4" style="letter-spacing: 7px;">
+                    Why Choose Us
+                </p>
+                
+                <p class="text-lg mb-8 text-black">
+                    <strong class="font-bold">Company Setup Services:</strong>
+                    We provide end-to-end support for establishing your business in Saudi Arabia, including Company Registration, Licensing, MISA Licence Support, setting up your Regional Headquarters (RHQ), and all kinds of visa and iqama services.
+                </p>
+
+                <p class="text-lg text-black mb-8">
+                    <strong class="font-bold">Post-Incorporation Services:</strong>
+                    Our expert team ensures your business remains compliant and operationally sound in Saudi Arabia with essential post-incorporation support, including assistance with MHRSD, GOSI, GAZT, and VAT certification, management of additional licences like media and civil defence. Additionally, we assist with portal registrations for Muqeem, QIWA, and Mudad.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="relative w-full flex flex-col items-center justify-center text-center bg-cover bg-center px-4 sm:px-6 md:px-8 lg:px-20 py-12 sm:py-16 md:py-24 min-h-[602px] opacity-100"
+         style="background-image: url('images/addition.jpg'); height: 602px; gap: 10px; opacity: 1;">
+
+    
+    
+
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center" 
+        style="font-family: 'Verdana'; font-weight: 700; line-height: 1.2;">
+        Additional Support Services
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-screen-lg w-full mt-8">
+        <div class="p-4">
+            <h3 class="text-lg sm:text-xl font-semibold text-gray-800 mb-2">Accounting & Advisory</h3>
+            <p class="text-gray-600 text-sm sm:text-base">
+                Expert financial and strategic support to strengthen your business foundation.
+            </p>
+        </div>
+        
+        <div class="p-4">
+            <h3 class="text-lg sm:text-xl font-semibold text-gray-800 mb-2">Relocation</h3>
+            <p class="text-gray-600 text-sm sm:text-base">
+                Efficient relocation solutions to expand your market reach.
+            </p>
+        </div>
+        
+        <div class="p-4">
+            <h3 class="text-lg sm:text-xl font-semibold text-gray-800 mb-2">Employer of Record</h3>
+            <p class="text-gray-600 text-sm sm:text-base">
+                Local hiring and compliance solutions for seamless expansion.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="py-12 bg-cover bg-center relative" 
+         style=" background-color: #f0f0f0;">
+    
+    
+    <img src="images/Equipment 2.png" alt="Equipment Image" class="absolute top-0 left-0 mt-12 ml-32 w-32 h-auto">
+
+    <div class="max-w-screen-lg mx-auto px-6">
+        
+        <div class="flex items-center mb-4">
+            
+            <div class="flex items-center space-x-4 ml-4">
+                
+                <div class="border-t-4 border-red-600 w-8"></div>
+                
+                <h2 class="text-2xl font-bold text-gray-800 uppercase">Your Path to Growth</h2>
+            </div>
+        </div>
+
+        
+        <div class="flex flex-col md:flex-row justify-between">
+            
+            <div class="w-full md:w-2/3 pr-8 mb-8 md:mb-0">
+                <p class="text-3xl font-bold text-black mb-4">How It Works</p>
+                
+                <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-lg text-gray-700 mb-8">
+                    
+                    <li class="flex flex-col justify-between h-full p-4">
+                        <div>
+                            <p class="font-bold text-gray-800 mb-2"><strong>Consultation:</strong></p>
+                            <p>Book a free consultation to discuss your goals.</p>
+                        </div>
+                        <div class="mt-4">
+                            <button class="text-black font-semibold px-6 py-3 rounded-md flex items-center justify-center gap-2 transition" 
+        style="background-color: #f0f0f0;">
+    Apply Now
+    <span class="material-icons">arrow_forward</span>
+</button>
+                        </div>
+                    </li>
+
+                    
+                    <li class="flex flex-col justify-between h-full p-4">
+                        <div>
+                            <p class="font-bold text-gray-800 mb-2"><strong>Tailored Strategy:</strong></p>
+                            <p>We’ll create a customized roadmap for success.</p>
+                        </div>
+                        <div class="mt-4">
+                           <button class="text-black font-semibold px-6 py-3 rounded-md flex items-center justify-center gap-2 transition" 
+        style="background-color: #f0f0f0;">
+    Apply Now
+    <span class="material-icons">arrow_forward</span>
+</button>
+                        </div>
+                    </li>
+
+                    
+                    <li class="flex flex-col justify-between h-full p-4">
+                        <div>
+                            <p class="font-bold text-gray-800 mb-2"><strong>Implementation & Support:</strong></p>
+                            <p>Receive hands-on guidance to achieve and sustain growth.</p>
+                        </div>
+                        <div class="mt-4">
+                            <button class="text-black font-semibold px-6 py-3 rounded-md flex items-center justify-center gap-2 transition" 
+        style="background-color: #f0f0f0;">
+    Apply Now
+    <span class="material-icons">arrow_forward</span>
+</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            
+           <div class="w-full sm:w-1/3 flex justify-center mt-4 sm:mt-0">
+  <img src="images/011.png" alt="About Us Image" class="w-full h-auto sm:h-full object-cover rounded-lg">
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+
+ <section class="py-12 bg-gray-100">
+    <div class="max-w-screen-lg mx-auto px-6">
+        
+        <div class="flex items-center mb-4">
+            <div class="text-gray-700 text-xl font-bold">04</div>
+            <div class="flex items-center space-x-4 ml-4">
+                <div class="border-t-4 border-red-600 w-8"></div>
+                <h2 class="text-3xl font-bold text-gray-800 uppercase">CBD Corporate Services</h2>
+            </div>
+        </div>
+
+        
+        <div class="w-full mb-8">
+            <div class="text-center">
+    <p class="font-['Verdana'] text-2xl font-bold text-black mb-4" style="letter-spacing: 7px; text-underline-position: from-font; text-decoration-skip-ink: none; margin-left: -60px !important;">
+        Services
+    </p>
+</div>
+
+        </div>
+
+        
+        <div class="flex flex-col md:flex-row gap-8">
+
+            
+            <div class="w-full sm:w-1/3 flex justify-center mt-4 sm:mt-0">
+  <img src="images/04.jpg" alt="About Us Image" class="w-full h-auto sm:h-full object-cover rounded-lg">
+</div>
+
+
+            
+           
+
+            
+            <div class="w-full md:w-2/3">
+                <div class="flex flex-col gap-8">
+
+                    
+                    <div class="bg-white border border-black rounded-lg overflow-hidden shadow-lg mb-4">
+                        <button class="w-full text-left p-4 text-xl font-semibold text-gray-800 bg-transparent" id="service-01" onclick="toggleService('content-01')">
+                            <span>01 - Market Entry</span>
+                        </button>
+                        <div class="p-4 bg-gray-100 hidden" id="content-01">
+                            <p class="text-gray-700">We are Murasaki, a consortium of Japanese and European entrepreneurs that have come together to create a company that builds decentralized, Japanese video games and products, entirely on the blockchain. Utilizing the power of community, the Murasaki vision is to be the no.1 Japanese video game development company by 2032, where our future game engine is accessible to anyone wanting to build blockchain titles.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="bg-white border border-black rounded-lg overflow-hidden shadow-lg mb-4">
+                        <button class="w-full text-left p-4 text-xl font-semibold text-gray-800 bg-transparent" id="service-02" onclick="toggleService('content-02')">
+                            <span>02 - Company Formation</span>
+                        </button>
+                        <div class="p-4 bg-gray-100 hidden" id="content-02">
+                            <p class="text-gray-700">We are Murasaki, a consortium of Japanese and European entrepreneurs that have come together to create a company that builds decentralized, Japanese video games and products, entirely on the blockchain. Utilizing the power of community, the Murasaki vision is to be the no.1 Japanese video game development company by 2032, where our future game engine is accessible to anyone wanting to build blockchain titles.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="bg-white border border-black rounded-lg overflow-hidden shadow-lg mb-4">
+                        <button class="w-full text-left p-4 text-xl font-semibold text-gray-800 bg-transparent" id="service-03" onclick="toggleService('content-03')">
+                            <span>03 - Business Structuring</span>
+                        </button>
+                        <div class="p-4 bg-gray-100 hidden" id="content-03">
+                            <p class="text-gray-700">We are Murasaki, a consortium of Japanese and European entrepreneurs that have come together to create a company that builds decentralized, Japanese video games and products, entirely on the blockchain. Utilizing the power of community, the Murasaki vision is to be the no.1 Japanese video game development company by 2032, where our future game engine is accessible to anyone wanting to build blockchain titles.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="bg-white border border-black rounded-lg overflow-hidden shadow-lg mb-4">
+                        <button class="w-full text-left p-4 text-xl font-semibold text-gray-800 bg-transparent" id="service-04" onclick="toggleService('content-04')">
+                            <span>04 - Visa & Iqama</span>
+                        </button>
+                        <div class="p-4 bg-gray-100 hidden" id="content-04">
+                            <p class="text-gray-700">We are Murasaki, a consortium of Japanese and European entrepreneurs that have come together to create a company that builds decentralized, Japanese video games and products, entirely on the blockchain. Utilizing the power of community, the Murasaki vision is to be the no.1 Japanese video game development company by 2032, where our future game engine is accessible to anyone wanting to build blockchain titles.</p>
+                        </div>
+                    </div>
+
+                   
+                    <div class="bg-white border border-black rounded-lg overflow-hidden shadow-lg mb-4">
+                        <button class="w-full text-left p-4 text-xl font-semibold text-gray-800 bg-transparent" id="service-05" onclick="toggleService('content-05')">
+                            <span>05 - Post Incorporation Services</span>
+                        </button>
+                        <div class="p-4 bg-gray-100 hidden" id="content-05">
+                            <p class="text-gray-700">We are Murasaki, a consortium of Japanese and European entrepreneurs that have come together to create a company that builds decentralized, Japanese video games and products, entirely on the blockchain. Utilizing the power of community, the Murasaki vision is to be the no.1 Japanese video game development company by 2032, where our future game engine is accessible to anyone wanting to build blockchain titles.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    function toggleService(contentId) {
+        const content = document.getElementById(contentId);
+        content.classList.toggle('hidden');
+    }
+</script>
+
+
+<section class="get-in-touch" style="font-family: Verdana;">
+  <div class="container">
+    <div class="get-in-touch-content">
+      <div class="form-container">
+      
+        <div class="flex-1 p-6 max-w-md mx-auto relative">
+         
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+         
+          <form class="space-y-4">
+            <div class="flex gap-4">
+              <input type="text" placeholder="First Name*" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+              <input type="text" placeholder="Last Name*" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+            </div>
+            <input type="email" placeholder="Email*" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+            <input type="tel" placeholder="Phone Number*" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+            <input type="text" placeholder="Company Name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+            <select required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+              <option value="">Service of Interest</option>
+             
+            </select>
+            <button type="submit" class="bg-red-600 text-white py-3 w-full rounded-lg font-semibold hover:bg-red-700 transition duration-300">
+              Request Consultation
+            </button>
+          </form>
+        </div>
+      </div>
+
+     
+      <div class="w-full sm:w-1/3 flex justify-center mt-4 sm:mt-0">
+        <img src="images/Image box.png" alt="About Us Image" class="w-full h-auto sm:h-full object-cover rounded-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="test-below">
+<section class="industry-support bg-section  sm:hidden md:block mt-100">
+  <div class="container ">
+    <div class="industry-support-content">
+      
+      <div class="industry-info">
+        <h3>What industries do you work with?</h3>
+        <p>
+          CBD Corporate Services collaborates with a diverse range of industries, including finance, real estate, technology, healthcare, hospitality, retail, and more. We have the expertise to support businesses across various sectors in achieving their strategic goals.
+        </p>
+      </div>
+      
+      <div class="industry-info">
+        <h3>How long does the company formation process take?</h3>
+        <p>
+          The duration of the company formation process varies depending on the type of entity and jurisdiction. Typically, it takes anywhere from a few days to a few weeks. Our team works diligently to ensure a smooth and timely setup for each client.
+        </p>
+      </div>
+
+      <div class="industry-info">
+        <h3>What ongoing support is available?</h3>
+        <p>
+          We offer a comprehensive range of ongoing support services, including compliance management, corporate governance, accounting, and administrative services. Our goal is to provide continuous assistance so that our clients can focus on growing their businesses with confidence.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<section class="relative w-full flex flex-col items-center justify-center text-center bg-cover bg-center"
+         style="background-image: url('images/footer.jpg'); background-size:100vh; height: 150vh;">
+  <div class="absolute inset-0 bg-white opacity-40"></div>
+
+  
+  <div class="absolute top-6 left-6 z-20 flex flex-col items-start space-y-1 pl-4">
+    <div class="flex items-center space-x-2">
+        <img src="images/cbdlogo.png" alt="CBD Logo" class="w-24 h-16">
+    </div>
+  </div>
+
+  
+  <div class="absolute top-20 left-0 z-20 w-full flex flex-col md:flex-row justify-between gap-8 md:gap-4 px-6 md:px-12">
+    
+    <div class="w-full md:w-1/4 text-left px-6 mb-8 md:mb-0">
+      <p class="text-black text-sm md:text-base">King Fahad Street, Al Rahmaniyyah, Riyadh</p>
+      <a href="#map" class="text-black hover:text-blue-300 mb-2 block text-sm md:text-base">Show on Map</a>
+      <a href="#consultation" class="inline-block bg-light-maroon text-white font-bold py-2 px-6 rounded-lg hover:bg-light-maroon-dark text-sm md:text-base">
+        Get a Consultation Today
+      </a>
+
+      <div class="flex justify-center mt-8 border-t border-gray-700 pt-4 text-black text-sm md:text-base">
+        <p class="text-black">
+          &copy; <span id="year"></span> CBD Corporate Services. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="w-full md:w-1/4 text-left px-6 mb-8 md:mb-0">
+      <h4 class="text-lg font-semibold mb-4 text-sm md:text-base">Contact Information</h4>
+      <p class="text-black mt-2 mb-4 text-sm md:text-base">
+        Phone: +971(0)4551 0677<br>
+        Email: <a href="mailto:ksa@cbdcorporateservices.com" class="text-black hover:text-blue-300">ksa@cbdcorporateservices.com</a>
+      </p>
+
+      <ul class="list-none">
+        <li class="text-black font-bold mb-1 text-sm md:text-base">Local Expertise and Compliance</li>
+        <li class="text-black text-sm md:text-base">
+          With years of experience and a strong local network, we ensure full regulatory compliance and guide you through updates in Saudi corporate laws.
+        </li>
+      </ul>
+    </div>
+
+    
+    <div class="w-full md:w-1/4 text-left px-6 mb-8 md:mb-0">
+      <h4 class="text-lg font-semibold mb-4 text-sm md:text-base">Follow On</h4>
+      <ul class="list-none">
+        <li class="text-black font-bold mb-1 text-sm md:text-base">Personalized, End-to-End Support</li>
+      </ul>
+      <p class="text-black mt-4 text-sm md:text-base">
+        Emphasize that clients have a single point of contact for all services, from setup to daily compliance.
+      </p>
+    </div>
+
+    
+    <div class="w-full md:w-1/4 text-left px-6">
+      <h4 class="text-lg font-semibold mb-4 text-sm md:text-base">Legal</h4>
+      <ul class="list-none">
+        <li><a href="#privacy-policy" class="text-black hover:text-blue-400 text-sm md:text-base">Privacy Policy</a></li>
+        <li><a href="#terms-of-service" class="text-black hover:text-blue-400 text-sm md:text-base">Terms of Service</a></li>
+        <li><a href="#cookie-policy" class="text-black hover:text-blue-400 text-sm md:text-base">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div class="absolute bottom-0 left-0 w-full flex justify-center gap-8 md:gap-24 px-4 py-16 z-10 bg-opacity-50">
+    <img src="images/fot1.png" alt="Image 1" class="w-20 h-20 md:w-40 md:h-40 object-contain">
+    <img src="images/fot2.png" alt="Image 2" class="w-20 h-20 md:w-40 md:h-40 object-contain">
+    <img src="images/fot3.png" alt="Image 3" class="w-20 h-20 md:w-40 md:h-40 object-contain">
+    <img src="images/fot4.png" alt="Image 4" class="w-20 h-20 md:w-40 md:h-40 object-contain">
+  </div>
+</section>
+
+
+</div>
+</body>
+</html>
